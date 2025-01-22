@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Anshu's Court</title>
+  <style>
+    /* General Styling */
+    body {
+      margin: 0;
+      font-family: 'Times New Roman', serif;
+      background: white;
+      color: black;
+    }
+    header, footer {
+      background: #ececec;
+      color: black;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    h1, h2 {
+      color: black;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    a:hover {
+      color: #0056a3;
+    }
+
+    /* Navigation Bar */
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #f4f4f4;
+      padding: 10px;
+      border-bottom: 2px solid #ccc;
+    }
+    nav a {
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    /* Main Content */
+    main {
+      padding: 20px;
+    }
+
+    /* Sections */
+    .section {
+      border: 5px solid #8B4513; /* Steampunk border color */
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+      background-image: url('steampunk-watermark.jpg'); /* Placeholder for watermark */
+      background-size: 300px;
+      background-repeat: no-repeat;
+      background-position: bottom right;
+    }
+
+    /* Footer Styling */
+    footer {
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+
+    /* Text Animation */
+    h1, h2, p {
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Anshu's Court</h1>
+    <p>Sharing opinions and ideas on a wide range of topics</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#blogs">Blogs</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>Hi! I'm Anshu Mohit, pursuing a B.Tech degree at NIT Meghalaya. I'm passionate about sharing my opinions on a variety of topics.</p>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>My Projects</h2>
+      <p>No projects uploaded yet. Check back later!</p>
+    </section>
+
+    <section id="blogs" class="section">
+      <h2>My Blogs</h2>
+      <p>No blogs uploaded yet. Stay tuned for updates!</p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:anshumohit418@gmail.com">anshumohit418@gmail.com</a></p>
+      <p>Social Media: <a href="https://www.instagram.com/anshumohit007" target="_blank">@anshumohit007</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Anshu Mohit. All rights reserved.</p>
+  </footer>
+</body>
+</html>
